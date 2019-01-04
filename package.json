@@ -1,0 +1,20 @@
+{
+  "name": "trezor-signer-ethers",
+  "version": "1.0.1",
+  "description": "An Ethers Signr for Trezor Hardware Wallet.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Krasimir Raykov",
+  "license": "N/A",
+  "dependencies": {
+    "ethers": "^4.0.12",
+    "trezor-connect": "^6.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.1.6"
+  
+}
